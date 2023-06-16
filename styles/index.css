@@ -107,7 +107,7 @@ ul {
 {
 height: 400px;
 width: 350px;
-padding: 20px;
+padding: 60px;
 margin-top: 100px;
 }
 .whoAreWe{
@@ -140,9 +140,7 @@ padding: 10px;
 .notWorking{
   cursor: not-allowed;
 }
-.breadcrumbs{
-text-align: right;
-}
+
   
   
   
