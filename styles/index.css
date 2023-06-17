@@ -1,4 +1,9 @@
-﻿#container
+﻿body{
+  width: 1280px;
+  margin: 0 auto; 
+}
+
+#container
 {
     direction:rtl;
     align-items: center;
@@ -7,7 +12,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 832px;
+    height: max-content;
     min-width: 385px;
     padding: 0px 106px;
     position: relative;

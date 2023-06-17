@@ -1,4 +1,9 @@
-﻿#container
+﻿body{
+  width: 1280px;
+  margin: 0 auto; 
+}
+
+#container
 {
     direction:rtl;
     align-items: center;
@@ -7,7 +12,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 832px;
+    height: max-content;
     min-width: 385px;
     padding: 0px 106px;
     position: relative;
@@ -24,11 +29,15 @@
   width: 300px;
   height: auto;
   align-items: center;
+  margin: auto;
+  margin-right: 10px;
 }
 #parents{
   width: 450px;
   height: auto;
-  align-items: center; 
+  align-items: center;
+  margin: auto;
+  margin-right: 10px; 
 }
 p{
   text-align: center;
@@ -135,7 +144,11 @@ ul {
   }
 
 
-
+.gallery{
+  display: flex;
+  justify-content: center;
+  
+}
 
 .pictures{
   border: rgb(141, 95, 68) 5px solid;
@@ -176,10 +189,14 @@ p{
 #background{
   height: 300px;
   width: 200px;
+  margin: auto;
+  margin-right: 10px;
 }
+
 #palmtree{
   height: 300px;
   width: 200px;
+  margin: auto;
 }
 .TopPage {
     

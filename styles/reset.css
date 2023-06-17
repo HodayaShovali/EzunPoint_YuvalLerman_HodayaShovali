@@ -30,6 +30,8 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+        width: 1280px;
+        margin: 0 auto; 
 }
 
 article,aside,details,figcaption,figure,

@@ -1,4 +1,9 @@
-﻿#container
+﻿body{
+  width: 1280px;
+  margin: 0 auto; 
+}
+
+#container
 {
     direction:rtl;
     align-items: center;
@@ -7,7 +12,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 832px;
+    height: max-content;
     min-width: 385px;
     padding: 0px 106px;
     position: relative;
@@ -146,10 +151,10 @@ ul {
     }    
     
     .webMap a {
-        font-size: 40px;
+        font-size: 25px;
         text-decoration: none;
         color: #16391679; 
-        border-radius: 10px;
+        border-radius: 5px;
         background: #DFBDAA;
         color: #335133;
         padding: 0 5px;
